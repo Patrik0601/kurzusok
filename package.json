@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev":"nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Patrik0601/kurzusok/issues"
   },
-  "homepage": "https://github.com/Patrik0601/kurzusok#readme"
+  "homepage": "https://github.com/Patrik0601/kurzusok#readme",
+  "devDependencies": {
+    "better-sqlite3": "^12.6.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
 }
